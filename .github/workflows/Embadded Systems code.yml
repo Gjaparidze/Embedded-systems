@@ -1,17 +1,16 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main() {
     // Initialize variables
     int a = 10, b = 20, c = 30;
     
-    // Add values of a and b, and store in d
+    // Add a and b, store in d
     int d = a + b;
-    cout << "Value of d (a + b): " << d << endl;
+    printf("Value of d (a + b): %d\n", d);
     
-    // Subtract c from d, and store in e
+    // Subtract c from d, store in e
     int e = d - c;
-    cout << "Value of e (d - c): " << e << endl;
+    printf("Value of e (d - c): %d\n", e);
     
     return 0;
 }
